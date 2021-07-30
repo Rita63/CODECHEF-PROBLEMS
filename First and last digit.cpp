@@ -6,7 +6,7 @@ int T,n,r,q,s=0;
     cin>>T;
     for(int i=0;i<T;i++)
     {
-        cin>>n;
+      cin>>n;
         r = n%10;  //last digit
         q =n;
         while(n>=10)
@@ -16,8 +16,7 @@ int T,n,r,q,s=0;
         q=n;
         s=r+q;
         cout<<s<<endl;
-        
-    }
+       }
 
     return 0;
 }
